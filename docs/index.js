@@ -15,7 +15,7 @@ window.onload = function () {
     });
   });
 
-  const readme = "./README.md";
+  const readme = "../README.md";
 
   fetch(readme)
     .then((res) => res.blob())
