@@ -15,7 +15,8 @@ window.onload = function () {
     });
   });
 
-  const readme = "../README.md";
+  const readme =
+    "https://raw.githubusercontent.com/rori4/adex-protocol/master/README.md";
 
   fetch(readme)
     .then((res) => res.blob())
